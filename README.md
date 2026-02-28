@@ -36,6 +36,8 @@ To deploy and run this project, you will need:
 
 ### Step 2: Connect to the Server
 Once the instance is running, connect to it. You can use SSH from your local terminal:
+`ssh -i "your-key.pem" ubuntu@<YOUR EC2_PUBLIC_IP>`
+We used the code
 `ssh -i "AttendanceKey.pem" ubuntu@<54.167.41.41>`
 *(Alternatively, use the browser-based EC2 Instance Connect from the AWS Console).*
 
